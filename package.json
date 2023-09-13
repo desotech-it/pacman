@@ -2,7 +2,7 @@
   "name": "pacman",
   "version": "0.0.1",
   "description": "Pac-Man Node.js Game",
-  "author": "ItsGaet",
+  "author": "Desotech <info@desotech.it>",
   "main": "bin/server.js",
   "scripts": {
     "start": "node .",
@@ -10,7 +10,8 @@
   },
   "license": "GPLv3",
   "dependencies": {
-    "body-parser": "^2.0",
+    "aws-sdk": "^2.1455.0",
+    "body-parser": "^1.17.1",
     "express": "^4.14.1",
     "jade": "^1.11.0",
     "mongodb": "^2.2.24"
