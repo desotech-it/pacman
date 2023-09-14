@@ -42,7 +42,7 @@ body {
     float: right;
 }
 .button {
-    background: #00d1d4;
+    background: #008B82;
     cursor: pointer;
     padding: 8px;
     }
@@ -186,7 +186,7 @@ audio {display: block; }
     width: 90px;
     height: 90px;
     margin: 5px;
-    background: none repeat scroll 0% 0% #049dda;
+    background: none repeat scroll 0% 0% #0C6977;
     line-height: 70px;
     border-radius: 50%;
     font-weight: bold;
@@ -194,7 +194,7 @@ audio {display: block; }
     cursor: pointer;
 }
 .controlButton:hover, .controlButton:active {
-    background: #20e9c4;
+    background: #008B82;
 }
 
 .description { display: none; }
