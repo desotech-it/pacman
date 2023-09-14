@@ -202,14 +202,21 @@
 
 <!-- main game content -->
 <div class="content" id="game-content">
-
-    <div align="center">
-        <h1 style="color: #008B82;">Deso</h1><h1 style="color: #F2D44A;">Pacman</h1>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <div>
+            <img src="img/desologo.png">
+        </div>
+        <div style="margin: 0 20px;"align="center">
+            <h1 style="color: #008B82;">Deso</h1>
+            <h1 style="color: #F2D44A;">Pacman</h1>  
+        </div>
+        <div>
+            <img src="img/codelogo.png">
+        </div>
     </div>
-
     <!-- main game content -->
     <div class="game wrapper">
-
+        
         <div class="cloudprovider">Cloud: </div>
         <div class="zone">Zone: </div>
         <div class="host">Host: </div>
@@ -221,7 +228,9 @@
         <div class="controlSound">
             <img src="img/audio-icon-mute.png" id="mute">
         </div>
+
         <!-- canvas is splitted into 18x13 fields -->
+
         <div id="canvas-container">
             <div id="canvas-overlay-container">
                 <div id="canvas-overlay-content">
@@ -233,6 +242,7 @@
             <p>Canvas not supported</p>
             </canvas>
         </div>
+
 
         <div class="controls" id="game-buttons">
         <!-- Will be moved to Instructions
