@@ -41,8 +41,8 @@ router.get('/list', urlencodedParser, function (req, res, next) {
             result.sort((a, b) => {
                 const sA = parseInt(a.score, 10);
                 const sB = parseInt(b.score, 10);
-                if (sA > sB) return 1;
-                if (sA < sB) return -1;
+                if (sA > sB) return -1;
+                if (sA < sB) return 1;
                 return 0;
             });
             res.json(result);
