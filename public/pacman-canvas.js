@@ -1428,6 +1428,7 @@ function geronimo() {
             } else {
                 $('#form-validater').html("");
                 addHighscore();
+                $("#highscore-form").html("Highscore saved!");
             }
         });
 
