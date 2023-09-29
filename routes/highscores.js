@@ -39,8 +39,8 @@ router.get('/list', urlencodedParser, function (req, res, next) {
                 });
             });
             result.sort((a, b) => {
-                if (a.score > b.score) return -1;
-                if (a.score < b.score) return 1;
+                if (a.score > b.score) return 1;
+                if (a.score < b.score) return -1;
                 return 0;
             });
             res.json(result);
