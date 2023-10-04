@@ -281,7 +281,7 @@ function geronimo() {
         this.map;
         this.pillCount;                // number of pills
         this.monsters;
-        this.level = 1;
+        this.level = 5;
         this.refreshLevel = function (h) {
             $(h).html("Level: " + this.level);
         };
@@ -525,7 +525,7 @@ function geronimo() {
                 this.score.set(0);
                 this.score.refresh(".score");
                 pacman.lives = 0;
-                game.level = 1;
+                game.level = 5;
                 this.refreshLevel(".level");
                 game.gameOver = false;
             }
